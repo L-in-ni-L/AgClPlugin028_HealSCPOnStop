@@ -92,7 +92,7 @@ namespace AgClPlugin028_HealSCPOnStop
                     {
                         if (counter <= 0)
                         {
-                            player.Heal(5);
+                            player.Heal(Config.HPPerTime);
                         }
                         else
                         {

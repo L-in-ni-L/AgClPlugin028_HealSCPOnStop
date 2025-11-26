@@ -16,5 +16,9 @@ namespace AgClPlugin028_HealSCPOnStop
         public bool Debug { get; set; } = false;
         [Description("站立回血所需静止时间")]
         public int HealDelay { get; set; } = 20;
+
+        [Description("每秒恢复血量")]
+
+        public float HPPerTime { get; set; } = 3;
     }
 }
